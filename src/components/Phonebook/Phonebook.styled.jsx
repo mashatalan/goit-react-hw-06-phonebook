@@ -8,7 +8,6 @@ export const Form = styled.form`
   justify-content: center;
   align-items: center;
   gap: 15px;
-  font-family: 'Segoe UI';
   font-size: 18px;
   border: 4px solid plum;
   border-radius: 12px;

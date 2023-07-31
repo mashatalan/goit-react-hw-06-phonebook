@@ -4,7 +4,6 @@ export const Item = styled.li`
   min-width: 280px;
   display: flex;
   gap: 10px;
-  font-family: 'Segoe UI';
   font-size: 18px;
 
   &:not(:last-child) {
@@ -35,4 +34,24 @@ export const Button = styled.button`
     width: 16px;
     height: 16px;
   }
+`;
+export const ContactInfo = styled.div`
+  /* min-width: 380px; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+`;
+
+export const ContactName = styled.p`
+  display: flex;
+  gap: 10px;
+  max-width: 245px;
+  font-size: 14px;
+  font-weight: 600;
+`;
+export const ContactTel = styled.p`
+  display: flex;
+  gap: 10px;
+  max-width: 245px;
+  font-size: 14px;
 `;
